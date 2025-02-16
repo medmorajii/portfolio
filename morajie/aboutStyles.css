@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/about1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    background: #08000053;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    position: relative;
+    height: 100vh;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+
+}
+.logo:hover{
+    color: #00eeff;
+    transition: color 0.3s ease-in-out;
+    border-radius: 5px;
+    border-bottom: 1px solid #00eeff;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding:0  10px;
+}
+nav ul li a:hover{
+    color: #00eeff;
+    transition: color 0.3s ease-in-out;
+    border-radius: 5px;
+    border-bottom: 1px solid #00eeff;
+}
+
+
+
+.abouthome{
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color:  #ecf4f5;
+} 
+.abouthome  h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.abouthome .name{
+    font-size: 40px;
+    white-space: nowrap;
+    font-weight: bold;
+    text-transform: uppercase;   
+    color:  #00eeff;
+    font-style:oblique;
+    margin-bottom: 10px;
+
+}
+.abouthome .role{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.abouthome .description{
+    font-size: 20px;
+    margin-top:20px;
+    color:  #ecf4f5;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    
+}
